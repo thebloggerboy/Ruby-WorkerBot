@@ -1,4 +1,6 @@
 # ruby-worker-bot/config.py
+import os
+TOKEN = os.environ.get("WORKER_BOT_TOKEN")
 
 # 1. आपकी एडमिन ID
 ADMIN_IDS = [6056915535]
